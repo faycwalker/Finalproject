@@ -1,0 +1,114 @@
+body {
+    padding: 0;
+    overflow: hidden;
+    font-family: helvetica, arial, sans-serif;
+}
+#map {
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    height: 100%;
+    top: 0;
+    z-index: 2;
+}
+body {
+    padding: 0;
+    overflow: hidden;
+    font-family: colfax, helvetica, arial, sans-serif;
+}
+.slide {
+  font-size: 14px;
+  width: 300px;
+  color: white;
+}
+p.main {
+  font-size: 13px;
+  width: 300px;
+}
+p.endnote {
+  font-size: 10px;
+  width: 300px;
+  left: 0px;
+}
+.sidebar {
+    position: absolute;
+    left: 0px;
+    width: 500px;
+    top: 450px;
+    bottom: 0;
+    padding: 30px;
+    font-size: 15px;
+    text-align: left;
+    opacity: .5;
+    color: black;
+    z-index: 3;
+}
+.leaflet-marker-icon {
+    border:3px solid rgba(255,255,255,0.5);
+    border-radius:50%;
+}
+.legend {
+  list-style: none;
+  position: fixed;
+  z-index: 2000;
+  right: 0px;
+  bottom: 20px;
+  width: 200px;
+  border: 0px;
+  border-color: none;
+  border-bottom: 1px;
+  color: white;
+ }
+ .leaflet-div-icon {
+
+ }
+.legend li {
+  float: left;
+  margin-right: 5px;
+  color: black;
+  border: 2px;
+  align-items: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  bottom: 0px;
+}
+.legend span {
+  border: 1px solid #ccc;
+  float: left;
+  width: 12px;
+  height: 12px;
+  margin: 0px;
+  padding: 2px;
+}
+.legend .School {
+  background-color: #66ccbc;
+}
+.legend .Clinic {
+  background-color: #4286f4;
+}
+.legend .Ninety {
+  background-color: #FFEDA0;
+}
+.legend .Eighty {
+  background-color: #FED976;
+}
+.legend .Seventy {
+  background-color: #FEB24C;
+}
+.legend .Sixty {
+  background-color: #FC4E2A;
+}
+.legend .Fifty {
+  background-color: #E31A1C;
+}
+.legend .Quartile2 {
+  background-color: #a0191c;
+}
+.legend .Quartile1 {
+  background-color: #800026;
+  bottom:0px;
+}
+.leaflet-tooltip {
+    .min-width: 120px;
+    .min-height: 50px;
+}
